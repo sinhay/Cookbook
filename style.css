@@ -1,0 +1,22 @@
+*
+{
+    background: gainsboro;
+}
+.header{
+    padding 80px;
+    text-align: center;
+    font-size: 20pt;
+    color: black;
+    
+}
+h1 {
+    font-weight: 300;
+}
+.navigation{
+    float: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
