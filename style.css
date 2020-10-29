@@ -1,22 +1,32 @@
 *
 {
-    background: gainsboro;
+    background: #DCDADF;
 }
 .header{
-    padding: 80px;
     text-align: center;
     font-size: 20pt;
     color: black;
-    
 }
+
+.header h1{
+    background-color: #BFA0E1;
+}
+
 h1 {
     font-weight: 300;
 }
 .navigation{
-    float: none;
-    display: block;
+    width: 100%;
+    overflow: auto;
+}
+
+.navigation a{
+    background-color: #BFA0E1;
+    float: left;
+    padding: 12px;
     color: black;
-    text-align: center;
-    padding: 15px 20px;
     text-decoration: none;
+    font-size: 20px;
+    width: 18%;
+    text-align: center;
 }
