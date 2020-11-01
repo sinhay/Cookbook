@@ -1,0 +1,46 @@
+*
+{
+    background: #DCDADF;
+}
+.header{
+    text-align: center;
+    font-size: 20pt;
+    color: black;
+}
+
+.header h1{
+    background-color: #BFA0E1;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+.navigation{
+    width: 100%;
+    overflow: auto;
+}
+
+.navigation a{
+    background-color: #BFA0E1;
+    float: left;
+    padding: 12px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    width: 18%;
+    text-align: center;
+}
+.h2{
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+.h4{
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+.h4 li{
+    font-family:sans-serif;
+    font-size: 14pt;
+}
