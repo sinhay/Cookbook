@@ -44,3 +44,32 @@ h1 {
     font-family:sans-serif;
     font-size: 14pt;
 }
+.recipes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.recipe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.ingredients {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ingredients-ingredientList{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.ingredients-figure {
+    margin-right: 1em;
+}
+
