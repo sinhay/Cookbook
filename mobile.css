@@ -35,41 +35,59 @@ h1 {
 .h2{
     font-family: sans-serif;
     font-size: 18pt;
+    background-color: #BFA0E1;
+    text-decoration: none;
 }
 .h4{
     font-family: sans-serif;
     font-size: 16pt;
+    background-color: #BFA0E1;
 }
 .h4 li{
     font-family:sans-serif;
     font-size: 14pt;
+    background-color: #BFA0E1;
 }
 .recipes {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
 }
 .recipe {
     display: flex;
-    align-items: flex-start;
+    align-items: space-around;
     justify-content: center;
     flex-direction: column;
+    width: 90%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.25%;
+    margin-bottom: 1.25;
+    border: solid 2pt black;
+    background-color: #BFA0E1;
 }
 .ingredients {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #BFA0E1;
 }
 .ingredients-ingredientList{
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    background-color: #BFA0E1;
 }
 .ingredients-figure {
     margin-right: 1em;
+    background-color: #BFA0E1;
 }
 
