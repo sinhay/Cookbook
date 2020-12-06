@@ -2,13 +2,12 @@
 <html>
 <head>
 <title> College Cookbook </title>
-    <script src = "recipeScript.js"></script>
+<script src = "recipeScript.js"></script>
     <link rel="stylesheet" href="desktop.css", media="screen and (min-width:769px)">
     <link rel="stylesheet" href="tablet.css", media="screen and (min-width:481px) and (max-width:780px)">
     <link rel="stylesheet" href="mobile.css", media="screen and (max-width:480px)">
 </head>
 <body>
-
     <header>
         <div class="header">
             <h1> The College Cookbook</h1>
@@ -30,10 +29,12 @@
         <h2> About Us</h2>
         <p>These recipes are made by college students for college students. They are super simple recipes that can be made with few ingredients.</p>
         
-        <div class = "reviews">
+        
         <h2>Reviews</h2>
+        <p>Input your review here:</p>
         <input type = "text" id = "reviewText">
-        <input type = "button" id = "reviewButton" value = "Add Review" onclick = "function()"><br>
+        <input type = "button" id = "reviewButton" value = "Add Review" onclick = "addReview()"><br>
+        <div id = "reviews">
         </div>
     </section>
 
